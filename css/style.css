@@ -1,3 +1,13 @@
+@media (max-width: 1200px) {
+  #header .header--nav {
+    width: 1100px;
+  }
+}
+@media (max-width: 1024px) {
+  #header .header--nav {
+    width: 974px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +31,16 @@ button {
 #header {
   padding-top: 30px;
 }
+
+#header .header {
+  display: flex;
+  align-items: center;
+}
 #header .header--nav {
+  width: 1140px;
+=======
+#header .header--nav {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,6 +91,8 @@ button {
   color: black;
 }
 
+
+=======
 #hero .hero--rod {
   display: flex;
   align-items: center;
@@ -118,5 +139,6 @@ button {
   text-decoration-line: underline;
   color: #02897A;
 }
+
 
 /*# sourceMappingURL=style.css.map */
