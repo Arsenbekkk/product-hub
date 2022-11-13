@@ -2,3 +2,60 @@ $ars:red;
 @import "mixin";
 @import "media";
 @import "reset";
+
+#header{
+  padding-top: 30px;
+  .header{
+    &--nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__logo{
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      &__a{
+        display: flex;
+        align-items: center;
+        a{
+          margin-left: 24px;
+          span{
+            font-weight: 900;
+          }
+          font-family: 'Poppins',sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 28px;
+          color: #22343D;
+        }
+        .header-btn2{
+          margin: 0 24px;
+          height: 43px;
+          width: 110px;
+          background: #02897A;
+          border-radius: 4px;
+
+          font-family: 'Poppins',sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF;
+        }
+        .header-btn1{
+          margin-left: 24px;
+          border: 1px solid #BCD0E5;
+          border-radius: 4px;
+          height: 43px;
+          width: 110px;
+          font-family: 'Poppins',sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: black;
+        }
+      }
+    }
+  }
+}
