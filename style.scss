@@ -6,7 +6,10 @@ $ars:red;
 #header{
   padding-top: 30px;
   .header{
+    display: flex;
+    align-items: center;
     &--nav{
+      width: 1140px;
       display: flex;
       align-items: center;
       justify-content: space-between;
